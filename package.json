@@ -1,0 +1,29 @@
+{
+  "name": "coding-dojo-tailwindcss",
+  "version": "1.0.0",
+  "description": "The source files for the Infi Coding Dojo for TailwindCSS",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "scripts": {
+    "dev": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infi-nl/coding-dojo-tailwindcss.git"
+  },
+  "keywords": [
+    "infi",
+    "dojo",
+    "tailwindcss"
+  ],
+  "author": "Jeroen Heijmans, Drikus Roor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infi-nl/coding-dojo-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/infi-nl/coding-dojo-tailwindcss#readme"
+}
