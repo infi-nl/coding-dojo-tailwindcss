@@ -36,7 +36,7 @@ Follow these steps:
 
 After these steps your browser should automatically open a new tab that shows the an unstyled website (see image below). This is the website we will style using TailwindCSS.
 
-If your browser does not open automatically, you can open the website yourself by going to [http://localhost:8181](http://localhost:8181).
+If your browser does not open automatically, you can open the website yourself by going to [http://localhost:8181](http://localhost:8181). Alternatively, you could also just open the `src/index.html` file in your browser, but this will not automatically reload the page when you make changes to the code.
 
 Now you're good to go. The file we will be working in is `src/index.html`.
 
