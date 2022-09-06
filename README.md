@@ -24,7 +24,7 @@ Follow these steps:
 
 #### 1. Clone this repository
 
-`git clone git@github.com:infi-nl/coding-dojo-tailwindcss.git`
+`git clone git@github.com:infi-nl/coding-dojo-tailwindcss.git` or download the ZIP.
 
 #### 2. Install dependencies
 
@@ -38,7 +38,7 @@ After these steps your browser should automatically open a new tab that shows th
 
 If your browser does not open automatically, you can open the website yourself by going to [http://localhost:8181](http://localhost:8181).
 
-Now you're good to go.
+Now you're good to go. The file we will be working in is `src/index.html`.
 
 ![Unstyled website](./assets/images/tailwind-dojo-example-unstyled-website.png)
 _- Website before styled with TailwindCSS_
