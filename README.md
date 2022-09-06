@@ -34,8 +34,14 @@ Follow these steps:
 
 `npm run dev`
 
-After these steps you should see TODO.
-now you're good to go.
+After these steps your browser should automatically open a new tab that shows the an unstyled website (see image below). This is the website we will style using TailwindCSS.
+
+If your browser does not open automatically, you can open the website yourself by going to [http://localhost:8181](http://localhost:8181).
+
+Now you're good to go.
+
+![Unstyled website](./assets/images/tailwind-dojo-example-unstyled-website.png)
+_- Website before styled with TailwindCSS_
 
 ### Objective
 
@@ -45,10 +51,10 @@ We'll provide you with the plain HTML, you need to add the required bits of Tail
 
 Here's what we're aiming for:
 
-![Screenshot of first part from the Tailwind site in dark mode](tailwind-dojo-example-dark-mode-first-parts.png)
+![Screenshot of first part from the Tailwind site in dark mode](./assets/images/tailwind-dojo-example-dark-mode-first-parts.png)
 
 It's only the first part of the Tailwind home page, as that's plenty for a two-hour workshop.
-But if you really want, you can check [the full size screenshot](tailwind-dojo-example-dark-mode-full-size.png) and build the whole thing.
+But if you really want, you can check [the full size screenshot](./assets/images/tailwind-dojo-example-dark-mode-full-size.png) and build the whole thing.
 
 ### Cheating
 
@@ -107,7 +113,7 @@ Using only `class` attributes try to get close to the image below.
 We include some guidelines shown to help visualize.
 For the gray boxes we recommend starting with placeholders.
 
-![Same screenshot as before, but with guidelines](tailwind-dojo-example-dark-mode-first-parts-objective-1.png)
+![Same screenshot as before, but with guidelines](./assets/images/tailwind-dojo-example-dark-mode-first-parts-objective-1.png)
 
 Some tips:
 
