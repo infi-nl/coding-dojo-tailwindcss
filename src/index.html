@@ -2,63 +2,75 @@
 <html>
 
 <head>
-    <title>Infi Coding Dojo: TailwindCSS!</title> <!-- Tailwind CSS -->
+    <title>Infi Coding Dojo: TailwindCSS!</title>
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /*
-        * Useful for doing the dojo
-        * (adds border to all divs and/or paragraphs)
-        div { border: 1px solid rgba(255, 0, 0, 0.3); margin: 4px; }
-        p { border: 1px solid rgba(255, 0, 0, 0.3); margin: 4px; }
-        */
-    </style>
 </head>
 
-<body>
-    <header>
+<body class="bg-slate-900">
+
+    <header class="p-8">
 
         <!-- top bar -->
-        <div>
-
-            <!-- logo -->
-            <div></div>
-
-            <!-- navigation -->
-            <div>
+        <div class="w-100 flex justify-between items-center text-slate-200">
+            <div class="h-8 w-40 bg-gray-400"></div>
+            <div class="flex items-center">
                 <nav>
-                    <ul>
-                        <li><a>Docs</a></li>
-                        <li><a>Components</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Jobs <span>New</span></a></li>
+                    <ul class="flex space-x-8">
+                        <li>
+                            <a class="hover:text-blue-400 cursor-pointer text-sm font-bold">
+                                Docs</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-blue-400 cursor-pointer text-sm font-bold">
+                                Components</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-blue-400 cursor-pointer text-sm font-bold">
+                                Blog</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-blue-400 cursor-pointer text-sm font-bold">
+                                Jobs
+                                <span
+                                    class="ml-2 bg-sky-400/10 text-sky-400 p-1 rounded-full text-xs font-medium">New</span>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
-
-                <!-- icon buttons -->
-                <div>
-                    <a>🌙</a>
-                    <a>🐙</a>
+                <div class="flex ml-6 pl-6">
+                    <div class="h-8 w-8 bg-gray-400 rounded-full"> </div>
+                    <div class="h-8 w-8 bg-gray-400 rounded-full ml-2"> </div>
                 </div>
             </div>
+
         </div>
 
         <!-- hero -->
-        <div>
-            <h1>Rapidly build modern websites without ever leaving your HTML.</h1>
-            <p>A utility-first CSS framework packed with classes like <code>flex</code>, <code>pt-4</code>,
-                <code>text-center</code> and <code>rotate-90</code> that can be composed to build any design, directly
-                in your markup.
+        <div class="mx-auto mt-40 max-w-5xl">
+            <h1 class="text-white text-6xl font-extrabold text-center">Rapidly build modern websites without ever
+                leaving your
+                HTML.</h1>
+            <p class="mt-6 text-lg text-slate-400 text-center max-w-3xl mx-auto">A utility-first CSS framework packed
+                with
+                classes
+                like
+                <code class="text-sky-400 font-mono">flex</code>, <code class="text-sky-400 font-mono">pt-4</code>,
+                <code class="text-sky-400 font-mono">text-center</code> and <code
+                    class="text-sky-400 font-mono">rotate-90</code> that can
+                be composed to build any design, directly in your markup.
             </p>
 
             <!-- cta -->
-            <div>
-                <button>Get started</button>
-                <button>
-                    <div>
-                        <div></div>
-                        <span>Quick search...</span>
+            <div class="flex items-center justify-center space-x-6 mt-12">
+                <button class="bg-sky-500 rounded-md py-3 px-6 text-white font-semibold">Get started</button>
+                <button class="bg-slate-800 rounded-md py-3 px-4 text-white flex items-center space-x-16">
+                    <div class="flex justify-between items-center">
+                        <div class=" h-8 w-8 bg-gray-400 rounded-full"> </div>
+                        <span class="ml-4 text-slate-300 text-sm">Quick search...</span>
                     </div>
-                    <span>Ctrl K</span>
+                    <span class="text-sm text-slate-500 font-semibold">Ctrl K</span>
                 </button>
             </div>
         </div>
@@ -66,57 +78,36 @@
     </header>
 
     <!-- example -->
-    <div>
-        <div></div>
-        <div></div>
+    <div class="flex items-center mt-40 px-8">
+        <div class="bg-gray-500 w-1/2 h-60"></div>
+        <div class="bg-gray-400 w-1/2 h-96"></div>
     </div>
 
     <!-- foreword -->
-    <div>
-        <h2>“Best practices” don’t actually work.</h2>
-        <p> I’ve written <span>a few thousand words</span> on why traditional “semantic class names” are the reason CSS
-            is hard to maintain, but the truth is you’re never going to believe me until you actually try it. If you can
-            suppress the urge to retch long enough to give it a chance, I really think you’ll wonder how you ever worked
-            with CSS any other way. </p> <!-- avatar -->
-        <div> </div>
+    <div class="mx-auto mt-40 max-w-5xl">
+        <h2 class="text-white text-5xl font-extrabold text-center">“Best practices” don’t actually work.</h2>
+        <p class="mt-6 text-lg text-slate-400 text-center max-w-3xl mx-auto">
+            I’ve written <span class="text-sky-400 font-semibold">a few thousand words</span> on why traditional
+            “semantic class names” are the reason CSS is hard to maintain, but the truth is you’re never going to
+            believe me until you actually try it. If you can suppress the urge to retch long enough to give it a chance,
+            I really think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+
         <!-- avatar -->
-        <div>
-            <div>X</div>
-            <div>
-                <p>John Doe</p>
-                <p>Head of engineering</p>
+        <div class="flex items-center justify-center space-x-6 mt-6 mx-auto w-60 h-16 bg-gray-400">
+            <div class="h-12 w-12 bg-gray-400 rounded-full"> </div>
+            <div class="flex flex-col">
+                <h3 class="text-white text-lg font-semibold">Adam Wathan</h3>
+                <p class="text-slate-400 text-sm">Co-creator of Tailwind CSS</p>
             </div>
         </div>
     </div>
 
-    <!-- testimonials (optional) -->
-    <div>
-        <div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-        </div>
-        <div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-        </div>
-        <div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
-            <div>TESTIMONIAL</div>
+    <!-- testimonials -->
+    <div class="px-6 mb-6 mt-36 mx-auto">
+        <div class="w-full h-96 bg-gray-400 ">
         </div>
     </div>
-
-    <footer>
-        <hr>
-        <p>🌫 tailwindcss</p>
-    </footer>
 
 </body>
 
