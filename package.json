@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "The source files for the Infi Coding Dojo for TailwindCSS",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.1.0"
   },
   "scripts": {
     "dev": "node ./index.js",
