@@ -1,5 +1,11 @@
 # Infi Coding Dojo: TailwindCSS
 
+----
+
+⚠ Warning: This repository is frozen in time, and getting no new (security) updates. It is left public, because it'll still be useful. But use caution with installing dependencies and using this code in production scenario's.
+
+----
+
 This quick workshop will provide you with a great path to learn some (more) TailwindCSS.
 You follow it beginning-to-end, asking for help from more experienced folks along the way.
 Or you can branch off and pick your own path for learning.
